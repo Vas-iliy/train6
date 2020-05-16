@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ed7ee3f-fa31-4e42-bd26-d97319133541" name="Default Changelist" comment="" />
+    <list default="true" id="7ed7ee3f-fa31-4e42-bd26-d97319133541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/1/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/db/apps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1/db/apps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/2/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +20,15 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bw7nZAywpMnE8zg6cp4BLLHQ6m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,11 +64,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589531469881</updated>
-      <workItem from="1589531471524" duration="5986000" />
+      <workItem from="1589531471524" duration="7791000" />
+      <workItem from="1589564886761" duration="105000" />
+      <workItem from="1589565258062" duration="81000" />
+      <workItem from="1589565651402" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

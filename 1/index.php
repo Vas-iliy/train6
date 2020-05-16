@@ -1,5 +1,5 @@
 <?php
-
+// Хранение инфформации и Json
 $err = '';
 $isSet = false;
 
@@ -12,27 +12,36 @@ if ($_POST) {
     if (mb_strlen($name, 'UTF8')<2) {
         $err = 'Имя не короче двух символов';
     }
-    else {
-        newApps($name, $phone);
-        $isSet = true;
-    }
+
+    newApps($name, $phone);
+
 } else {
     $name = '';
     $phone = '';
 }
 
+if ($_POST) {
+    header('Location:index.php');
+}
+
+if ($_GET['admin']) {
+    header('Location:admin.php');
+}
 
 ?>
 
 <div class="form">
-    <? if ($isSet == true):?>
-        <p>Ваша форма отправлена</p>
-    <?else:?>
+
         <form method="post">
             Name: <input type="text" name="name" value="<?=$name?>" required> <br/>
             Phone: <input type="text" name="phone" value="<?=$phone?>" required> <br/>
             <button>Отправить</button>
             <p><?=$err?></p>
         </form>
-    <?endif;?>
+</div>
+
+<div>
+    <form method="get">
+        <input type="submit" name="admin" value="В админку">
+    </form>
 </div>

@@ -4,6 +4,9 @@ include_once ('model/apps.php');
 
 $apps = getApps();
 
+if ($_GET['index']) {
+    header('Location:index.php');
+}
 ?>
 
 <table>
@@ -20,3 +23,9 @@ $apps = getApps();
     </tr>
     <?endforeach;?>
 </table>
+
+<div>
+    <form method="get">
+        <input type="submit" name="index" value="На главную">
+    </form>
+</div>
