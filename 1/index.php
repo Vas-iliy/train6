@@ -21,7 +21,7 @@ if ($_POST) {
 }
 
 if ($_POST) {
-    header('Location:index.php');
+    header('Location:state.php');
 }
 
 if ($_GET['admin']) {

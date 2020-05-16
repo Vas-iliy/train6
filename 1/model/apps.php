@@ -1,7 +1,7 @@
 <?php
 
 function getApps (): array {
-   $str = file_get_contents('db/apps.txt');
+   $str = file_get_contents('add.txt');
    return json_decode($str, true);
 }
 
@@ -16,6 +16,6 @@ function newApps ($name, $phone): bool {
 
 function saveApps (array $apps): bool {
     $str = json_encode($apps);
-    file_put_contents('db/apps.txt', $str);
+    file_put_contents('add.txt', $str);
     return true;
 }

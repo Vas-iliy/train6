@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed7ee3f-fa31-4e42-bd26-d97319133541" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/add.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/inform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/state.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/1/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/db/apps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1/db/apps.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/model/apps.php" beforeDir="false" afterPath="$PROJECT_DIR$/1/model/apps.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bw7nZAywpMnE8zg6cp4BLLHQ6m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,6 +74,8 @@
       <workItem from="1589564886761" duration="105000" />
       <workItem from="1589565258062" duration="81000" />
       <workItem from="1589565651402" duration="119000" />
+      <workItem from="1589630605254" duration="5648000" />
+      <workItem from="1589642270888" duration="2630000" />
     </task>
     <servers />
   </component>

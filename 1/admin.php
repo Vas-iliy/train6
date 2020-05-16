@@ -5,7 +5,7 @@ include_once ('model/apps.php');
 $apps = getApps();
 
 if ($_GET['index']) {
-    header('Location:index.php');
+    header('Location:state.php');
 }
 ?>
 
