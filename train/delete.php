@@ -8,4 +8,4 @@ if ($delete) {
     header('Location:index.php');
 }
 
-?>
+

@@ -14,7 +14,7 @@ if ($new) {
 
 <div>
     <form method="post">
-        <input type="text" name="name" required placeholder="Название"><br/>
+        <input type="text" name="name" required placeholder="Название">
         <textarea type="text" name="text" required placeholder="Текст статьи" id="" cols="30" rows="10"></textarea><br/>
         <input type="submit" name="go" value="Добавить">
     </form>
